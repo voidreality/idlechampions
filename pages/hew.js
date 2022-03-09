@@ -19,9 +19,10 @@ const config = {
   }
 };
 
-const hew = `$
+const hew = `$$
 \\begin{equation}
 \\begin{split} 
+f({\\alpha, \\beta, \\gamma, \\delta, \\epsilon, \\zeta, \\eta}) = 
 0.25 * 
 (1+\\alpha) * 
 (1 +
@@ -43,7 +44,7 @@ const hew = `$
 )
 \\end{split} 
 \\end{equation}
-$`;
+$$`;
 
 function CalculateHew(){
   let specBuff = 1;
