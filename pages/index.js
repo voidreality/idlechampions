@@ -19,12 +19,6 @@ const config = {
   }
 };
 
-const tex = `Inside a MathJax block element, one might use both Latex inline math, such
-as \\(x\\) or \\(\\frac{25x}{10} = 2^{10}\\), but then also switch
-to Latex display math, like
-\\[\\sum_{n = 100}^{1000}\\left(\\frac{10\\sqrt{n}}{n}\\right)\\]
-... and then continue with inline math.`;
-
 const hew = `$
 \\begin{equation}
 \\begin{split} 
@@ -50,8 +44,6 @@ const hew = `$
 \\end{split} 
 \\end{equation}
 $`;
-
-const test = `[x+1]`;
 
 function CalculateHew(){
   let specBuff = 1;
