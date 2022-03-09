@@ -36,7 +36,7 @@ const hew = `$
       ( 1 + \\delta )
     )
   ) * 
-  ( 1 + \epsilon ) *
+  ( 1 + \\epsilon ) *
   ( 1 + \\zeta ) *
 ) * \\eta
 )
